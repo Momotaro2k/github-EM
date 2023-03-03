@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppin", sans-serif;
+}
+/* login */
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgb(156, 169, 243),
+    rgb(173, 224, 173)
+  );
+}
+
+.container {
+  margin-top: 10%;
+}
+
+.container .logo {
+  font-size: 25px;
+  text-align: center;
+  display: block;
+}
+
+.container .logo::after {
+  margin: auto;
+  content: "";
+  display: block;
+  width: 75px;
+  height: 2px;
+  background: #000;
+}
+
+.container .login-form {
+  background-color: #fff;
+  max-width: max-content;
+  margin: 10px auto;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.login-form .form-content {
+  padding: 10px;
+}
+
+.form-content .login-text {
+  text-align: center;
+  margin: 5px 0;
+  font-size: x-large;
+  background-image: linear-gradient(
+    90deg,
+    rgb(153, 42, 135),
+    rgb(233, 132, 216)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.form-content .input-box {
+  margin: 15px 0;
+}
+
+.form-content .input-box .email {
+  margin: 5px 0;
+}
+
+.form-content .input-box label {
+  display: inline-block;
+  width: 80px;
+  font-weight: 700;
+}
+.form-content .input-box input {
+  width: auto;
+  height: 30px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.form-content .button {
+  width: 100%;
+  padding: 5px 0;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: large;
+  background-image: linear-gradient(
+    90deg,
+    rgb(114, 112, 199),
+    rgb(233, 132, 216)
+  );
+  background-clip: background-color;
+  color: whitesmoke;
+}
+
+.form-content .button:hover {
+  background-image: linear-gradient(90deg, rgb(76, 73, 243), rgb(235, 66, 207));
+  background-clip: background-color;
+  color: whitesmoke;
+}
+
+/* myprofile */
+#my-profile #inner .card {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#my-profile #inner .avatar::after {
+  margin: 4px 0;
+  content: "";
+  display: block;
+  width: 150px;
+  height: 2px;
+  background: #000;
+}
+
+#my-profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#my-profile #inner label::after {
+  margin: auto;
+  content: "";
+  display: block;
+  width: 75px;
+  height: 2px;
+  background: #000;
+}
+
+#my-profile #inner .row {
+  width: 100%;
+}
+
+#my-profile #inner p {
+  width: 50%;
+  border: solid 1px;
+  border-radius: 5px;
+}
